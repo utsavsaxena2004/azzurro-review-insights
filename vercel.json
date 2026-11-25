@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "regions": ["syd1"],
+  "crons": [
+    {
+      "path": "/api/sync",
+      "schedule": "0 20 * * *"
+    }
+  ]
+}
